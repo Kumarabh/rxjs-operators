@@ -1,6 +1,5 @@
 # rxjs-operators
 
-### map and filter
 this.service.getData()
     .pipe(
       map((posts: any) => posts.map(({id, title}: any) => ({id, title}))),
