@@ -13,6 +13,7 @@ import { DistinctUntilChangedComponent } from './components/distinct-until-chang
 import { TakeComponent } from './components/take/take.component';
 import { FirstComponent } from './components/first/first.component';
 import { SkipComponent } from './components/skip/skip.component';
+import { ConditionalAndBooleanComponent } from './components/conditional-and-boolean/conditional-and-boolean.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SkipComponent } from './components/skip/skip.component';
     DistinctUntilChangedComponent,
     TakeComponent,
     FirstComponent,
-    SkipComponent
+    SkipComponent,
+    ConditionalAndBooleanComponent
   ],
   imports: [
     BrowserModule,

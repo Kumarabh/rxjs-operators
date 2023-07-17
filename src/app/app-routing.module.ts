@@ -8,9 +8,10 @@ import { DistinctUntilChangedComponent } from './components/distinct-until-chang
 import { TakeComponent } from './components/take/take.component';
 import { FirstComponent } from './components/first/first.component';
 import { SkipComponent } from './components/skip/skip.component';
+import { ConditionalAndBooleanComponent } from './components/conditional-and-boolean/conditional-and-boolean.component';
 
 const routes: Routes = [
-  {path: '', component: SkipComponent}
+  {path: '', component: ConditionalAndBooleanComponent}
 ];
 
 @NgModule({
